@@ -157,9 +157,9 @@ def pregunta_05():
     y_test_pred = estimator.predict(x_test) 
 
     # Calcule el error cuadrático medio de las muestras
-    mse_train = ____(  
-        ___,  
-        ___,  
+    mse_train = mean_squared_error(  
+        y_train,
+        y_train_pred,
     )
     mse_test = ____(  
         ___,  
