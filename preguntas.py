@@ -130,7 +130,7 @@ def pregunta_04():
         param_grid = param_grid,
         cv = 5,  
         scoring = "r2",
-    ))
+    )
 
     return gridsearchcv
 
